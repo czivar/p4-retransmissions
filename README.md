@@ -6,7 +6,7 @@ This sample P4 application tracks TCP retransmission by looking for TCP SEQ numb
 
 You will need to install `bmv2` and `bmv2-ss`. Then you can compile everything, create a mininet topology and run the software switches with:
 
-    ./run\_demo.sh
+    ./run_demo.sh
 
 You can generate retransmissions jsut by starting an iperf client (since the flow entries are deliberately wrong in the switch, the connection won't build up which means iperf keeps retransmitting the same packet).
 
